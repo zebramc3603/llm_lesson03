@@ -1,0 +1,13 @@
+name: pytorch-gpu
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - torchaudio
+  - torchvision
+  - pytorch-cuda=12.1
+  - ipykernel
+  - ipywidgets
+  - diffusers
+  - cudnn=9.18.1.3
+prefix: C:\Users\user\anaconda3\envs\pytorch-gpu
